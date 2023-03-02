@@ -1,0 +1,94 @@
+:root {
+  --main-color: #e68285;
+  --secondary-color: #D62E33;
+}
+
+.bg-main-color {
+  background-color: var(--main-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.color-secondary-color {
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+input:focus,textarea:focus {
+  border: none !important;
+  box-shadow: var(--secondary-color) 0px 2px 8px 0px !important;
+}
+
+.home-container {
+  height: 600px;
+}
+
+.contact-symbols a {
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+.contact-symbols a:hover {
+  color: #fff;
+  background-color: var(--secondary-color);
+}
+
+.contact-symbols i {
+  height: 20px;
+  width: 20px;
+}
+
+.layer {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(206, 41, 46, 0.5);
+}
+
+.home {
+  background-image: url('../img/events-heavenly-header.jpg');
+  background-repeat: none;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.details h4 {
+  cursor: pointer !important;
+}
+
+.duration {
+  background-image: url('../img/join_us.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.hide-text {
+  display: none;
+}
+
+.nav-body {
+  width: 0px;
+  padding: 0px;
+}
+
+.nav-icon {
+  left:0px;
+  top: 40%;
+  cursor: pointer;
+}
+
+#closeBtn {
+  left: 250px;
+  top: 50px;
+  cursor: pointer;
+}
